@@ -33,6 +33,13 @@ simpleMVCProject
 └── build
 ```
 
+## Technologies Used
+
+- **Java** (JSP, JDBC)
+- **MySQL** for the database
+- **HTML/CSS** for front-end design
+- **Eclipse** as the IDE
+
 ## Screenshots
 
 ### Home Page
@@ -50,13 +57,6 @@ simpleMVCProject
 ### Delete Customer
 ![Edit Customer](https://github.com/narayanjagtap/CustomerManagementPortal-SimpleMVCproject/blob/main/images/delete.png)
 
-
-## Technologies Used
-
-- **Java** (JSP, JDBC)
-- **MySQL** for the database
-- **HTML/CSS** for front-end design
-- **Eclipse** as the IDE
 
 ## Contributing
 
