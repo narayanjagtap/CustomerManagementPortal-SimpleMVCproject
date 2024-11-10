@@ -56,6 +56,16 @@
     .box:active {
         transform: scale(1.05);
     }
+    footer {
+        background-color: #6598f7;
+        color: white;
+        text-align: center;
+        position: fixed;
+    	font-size: 10px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
 </style>
 </head>
 <body>
@@ -64,5 +74,15 @@
         <a href="Restaurant.html" class="box">Add customer</a>
         <a href="PrintData.jsp" class="box">View customer</a>
     </div>
+
+    <!-- Footer with Copyright -->
+    <footer>
+        <p>&copy; 2024 Narayan Jagtap. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Automatically sets the current year in the footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
