@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
+
+    h1 {
+        color: #333;
+        font-size: 50px;
+        font-weight: bold;
+        border: solid #6598f7;
+        padding: 20px;
+        background-color: #f0f8ff;
+        margin-top: 20vh; /* Adjust position to be in between top and buttons */
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 50px; /* Space between title and buttons */
+    }
+
+    .box {
+        width: 200px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #6598f7;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        background-color: #6598f7;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .box:hover {
+        background-color: #6598f7;
+        transform: scale(1.1);
+    }
+
+    .box:active {
+        transform: scale(1.05);
+    }
+</style>
+</head>
+<body>
+    <h1>Customer Management Portal</h1>
+    <div class="container">
+        <a href="Restaurant.html" class="box">Add customer</a>
+        <a href="PrintData.jsp" class="box">View customer</a>
+    </div>
+</body>
+</html>

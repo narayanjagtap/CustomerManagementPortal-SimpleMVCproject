@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant View File</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            color: #333;
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0;
+        	padding: 20px;
+        }
+        fieldset {
+            width: 400px;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        label {
+            font-size: 16px;
+            color: #333;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"], input[type="reset"] {
+            width: 100px;
+            padding: 10px;
+            font-weight: bold;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"] {
+            background-color: #6598f7;
+            margin-left: 20px;
+        }
+        input[type="reset"] {
+            background-color: #6598f7;
+        }
+        .home-button {
+            position: absolute;
+        	left: 150px;
+        	padding: 10px;
+        	background-color: #6598f7;
+        	color: white;
+        	font-weight: bold;
+        	text-decoration: none;
+        	border-radius: 5px;
+        }
+        .view-button {
+            position: absolute;
+        	left: 270px;
+        	padding: 10px;
+        	background-color: #6598f7;
+        	color: white;
+        	font-weight: bold;
+        	text-decoration: none;
+        	border-radius: 5px;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <!-- Back to Home Button -->
+        <a href="index.html" class="home-button">Home page</a>
+        <a href="PrintData.jsp" class="view-button">View customer</a>
+
+		
+        <h1>Add Customer</h1>
+
+        <form action="Restaurant.jsp" method="post">
+            <fieldset>
+
+                <label>Enter Customer Id:</label>
+                <input type="text" name="c_id"><br>
+                
+                <label>Enter Customer Item:</label>
+                <input type="text" name="c_item"><br>
+                
+                <label>Enter Item Price:</label>
+                <input type="text" name="price"><br>
+                
+                <label>Enter Feedback:</label>
+                <input type="text" name="feedback"><br><br>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Send">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
