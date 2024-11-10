@@ -36,7 +36,7 @@ simpleMVCProject
 ## Screenshots
 
 ### Home Page
-![Home Page](path/to/home_page_screenshot.png)
+![Home Page](https://github.com/narayanjagtap/CustomerManagementPortal-SimpleMVCproject/blob/main/images/add.png)
 
 ### Edit Customer
 ![Edit Customer](path/to/edit_customer_screenshot.png)
