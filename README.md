@@ -14,7 +14,7 @@ This is a simple Java MVC (Model-View-Controller) web application built using JS
 The project follows the MVC design pattern, with the structure as shown below:
 
 ```
-simpleMVCProject
+CustomerManagementPortal-SimpleMVCproject
 ├── src/main/java
 │   └── MVC
 │       ├── RestaurantBean.java     // Java Bean for Customer data
