@@ -36,10 +36,19 @@ simpleMVCProject
 ## Screenshots
 
 ### Home Page
-![Home Page](https://github.com/narayanjagtap/CustomerManagementPortal-SimpleMVCproject/blob/main/images/add.png)
+![Home Page](https://github.com/narayanjagtap/CustomerManagementPortal-SimpleMVCproject/blob/main/images/home.png)
+
+### Add Customer
+![Edit Customer](https://github.com/narayanjagtap/CustomerManagementPortal-SimpleMVCproject/blob/main/images/add.png)
+
+### View Customer
+![Edit Customer](https://github.com/narayanjagtap/CustomerManagementPortal-SimpleMVCproject/blob/main/images/list.png)
 
 ### Edit Customer
-![Edit Customer](path/to/edit_customer_screenshot.png)
+![Edit Customer](https://github.com/narayanjagtap/CustomerManagementPortal-SimpleMVCproject/blob/main/images/update.png)
+
+### Delete Customer
+![Edit Customer](https://github.com/narayanjagtap/CustomerManagementPortal-SimpleMVCproject/blob/main/images/delete.png)
 
 
 ## Technologies Used
